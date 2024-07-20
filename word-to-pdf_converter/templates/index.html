@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Word File</title>
+</head>
+
+<body>
+    <h2>Upload a Word File</h2>
+    <form action="/convert" method="post" enctype="multipart/form-data">
+        <input type="file" name="word_file" accept=".docx" required>
+        <button type="submit">Convert to PDF</button>
+    </form>
+</body>
+
+</html>
